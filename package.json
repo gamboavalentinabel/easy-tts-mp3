@@ -1,0 +1,13 @@
+{
+  "name": "easy-tts-mp3",
+  "version": "1.0.0",
+  "description": "Convert message to MP3 with multiple languages",
+  "main": "./src/app.js",
+  "type": "module",
+  "scripts": {
+    "test": "node ./test/app.test.js"
+  },
+  "keywords": [],
+  "author": "Valentin Gamboa",
+  "license": "ISC"
+}
