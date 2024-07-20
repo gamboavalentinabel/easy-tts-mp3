@@ -8,8 +8,7 @@
 Library for easily converting text to speech in multiple languages. No dependencies.
 
 > [!NOTE]
-> This library uses the Google Translate API with the base URL https://translate.google.com/translate_tts. 
-> Example → [🔊](https://translate.google.com/translate_tts?ie=UTF-8&q=Esto%20es%20un%20test&tl=es-ES&total=1&idx=0&textlen=15&client=tw-ob&prev=input&ttsspeed=1)
+> This library uses the Google Translate API with the base URL https://translate.google.com/translate_tts. <br> __Example →__ [🔊](https://translate.google.com/translate_tts?ie=UTF-8&q=Esto%20es%20un%20test&tl=es-ES&total=1&idx=0&textlen=15&client=tw-ob&prev=input&ttsspeed=1)
 
 ## How to use ↴
 ```js
