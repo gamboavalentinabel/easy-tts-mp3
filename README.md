@@ -31,8 +31,15 @@ const stringFilePath = await easyTTSmp3(message, config)
 |Path|The relative path to save the file| ' . ' |
 |Filename|The file name| 'tts.mp3' |
 
-## 🧪 Test Command ↴
+## ✅ Check Lang ↴
 ```js
+const check = checkLang('es-ES')
+```
+
+This function checks if the language exists in this [library](/src/utils/lang.js).
+
+## 🧪 Test Command ↴
+```
 npm run test
 ```
 
