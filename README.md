@@ -2,7 +2,7 @@
 
 <div align="center">
   <img width="200"
-    src="/assets/Logo.png">
+    src="/assets/Logo2.png">
 </div>
 
 Library for easily converting text to speech in multiple languages. No dependencies.
