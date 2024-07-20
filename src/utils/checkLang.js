@@ -1,9 +1,4 @@
-export function checkLang (messageLang) {
-    const found = langList.find((lang) => { return lang === messageLang })
-    return found !== undefined
-  }
-  
-  export const langList = [ // <-- https://cloud.google.com/speech-to-text/docs/speech-to-text-supported-languages?hl=es-419
+export const langList = [ // <-- https://cloud.google.com/speech-to-text/docs/speech-to-text-supported-languages?hl=es-419
     'af-ZA',
     'ak-GH',
     'sq-AL',
@@ -147,4 +142,4 @@ export function checkLang (messageLang) {
     'ur-IN',
     'ur-PK',
     'vi-VN'
-  ]
+]

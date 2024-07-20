@@ -3,6 +3,7 @@ import fs from 'node:fs'
 import { Readable } from 'node:stream'
 import { finished } from 'node:stream/promises'
 import googleTTS from './api/googleTTS.js'
+import { langList } from './utils/checkLang.js'
 
 /**
  * Convert message to MP3 with multiple languages.
@@ -13,7 +14,7 @@ import googleTTS from './api/googleTTS.js'
  * @param {string} [config.filename='tts.mp3'] - The file name. [Default: 'tts.mp3'].
  * @returns {Promise<string>} Promise string of the file path.
  */
-export default function easyTTSmp3 (message , config = { lang: 'es-ES', path: '.', filename: 'tts.mp3'}) {
+export default function textToSpechMp3 (message , config = { lang: 'es-ES', path: '.', filename: 'tts.mp3'}) {
   return new Promise(async (resolve, reject) => {
     const res = await googleTTS(message, config.lang || 'es-ES')
     if (res.status !== 200) {
@@ -30,4 +31,9 @@ export default function easyTTSmp3 (message , config = { lang: 'es-ES', path: '.
     }
     resolve(pathFile)
   })
+}
+
+export function checkLang (messageLang) {
+  const found = langList.find((lang) => { return lang === messageLang })
+  return found !== undefined
 }
