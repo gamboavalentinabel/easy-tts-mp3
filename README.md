@@ -26,7 +26,3 @@ await easyTTSmp3(message, config)
 |Lang|The language of the TTS - [All Languages](https://cloud.google.com/speech-to-text/docs/speech-to-text-supported-languages]) | 'es-ES' |
 |Path|The relative path to save the file| '.' |
 |Filename|The file name| 'tts.mp3' |
-
-## 📦 Docker Hub Image → [gamboavalentin/nodejs-puppeteer](https://hub.docker.com/r/gamboavalentin/nodejs-puppeteer).
-
-## 💻 Code example → [gamboavalentin/nodejs-puppeteer-example](https://github.com/gamboavalentin/nodejs-puppeteer-example).
