@@ -3,7 +3,7 @@ import fs from 'node:fs'
 import { Readable } from 'node:stream'
 import { finished } from 'node:stream/promises'
 import googleTTS from './api/googleTTS.js'
-import { langList } from './utils/checkLang.js'
+import { langList } from './utils/lang.js'
 
 /**
  * Convert message to MP3 with multiple languages.
