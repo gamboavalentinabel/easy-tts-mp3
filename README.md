@@ -33,8 +33,10 @@ const stringFilePath = await easyTTSmp3(message, config)
 
 ## ✅ Check Lang ↴
 ```js
-const check = checkLang('es-ES')
+const check = checkLang(lang)
 ```
+
+- `lang`: The language of the TTS (Example: 'es-ES').
 
 This function checks if the language exists in this [library](/src/utils/lang.js).
 
