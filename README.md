@@ -16,7 +16,7 @@ Library for easily converting text to speech in multiple languages. No dependenc
 
 ## How to use ↴
 ```js
-await easyTTSmp3(message, config)
+const stringFilePath = await easyTTSmp3(message, config)
 ```
 
 - `message`: String with text to convert to speech
@@ -28,5 +28,5 @@ await easyTTSmp3(message, config)
 |Name|Description|Default|
 |-----|-------|-------|
 |Lang|The language of the TTS - [All Languages](https://cloud.google.com/speech-to-text/docs/speech-to-text-supported-languages]) | 'es-ES' |
-|Path|The relative path to save the file| '.' |
+|Path|The relative path to save the file| ' . ' |
 |Filename|The file name| 'tts.mp3' |
