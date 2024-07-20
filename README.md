@@ -36,4 +36,4 @@ const stringFilePath = await easyTTSmp3(message, config)
 npm run test
 ```
 
-This command create `tts.mp3` file with the translated text *"esto es una prueba"*
+This command create `tts.mp3` file with the translated text *"esto es una prueba" in spanish.*
