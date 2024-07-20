@@ -33,6 +33,11 @@ export default function textToSpechMp3 (message , config = { lang: 'es-ES', path
   })
 }
 
+/**
+ * Check if the language exists in this repository.
+ * @param {string} messageLang - The language of the TTS (Example: 'es-ES').
+ * @returns {Boolean} True or False if the language exists in this repository.
+ */
 export function checkLang (messageLang) {
   const found = langList.find((lang) => { return lang === messageLang })
   return found !== undefined
