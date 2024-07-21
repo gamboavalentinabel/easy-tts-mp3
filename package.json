@@ -9,5 +9,9 @@
   },
   "keywords": [],
   "author": "Valentin Gamboa",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gamboavalentin/easy-tts-mp3"
+  }
 }
