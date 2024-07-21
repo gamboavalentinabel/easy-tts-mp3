@@ -13,9 +13,15 @@ Library for easily converting text to speech in multiple languages. No dependenc
 > https://translate.google.com/translate_tts?ie=UTF-8&q=Esto%20es%20un%20test&tl=es-ES&total=1&idx=0&textlen=15&client=tw-ob&prev=input&ttsspeed=1
 >``` 
 
+## 📥 Installation  ↴
+```
+npm i easy-tts-mp3
+```
 
 ## 🤔  How to use ↴
 ```js
+import easyTTSmp3 from 'easy-tts-mp3'
+
 const stringFilePath = await easyTTSmp3(message, config)
 ```
 
@@ -33,6 +39,8 @@ const stringFilePath = await easyTTSmp3(message, config)
 
 ## ✅ Check Lang ↴
 ```js
+import { checkLang } from 'easy-tts-mp3'
+
 const check = checkLang(lang)
 ```
 
