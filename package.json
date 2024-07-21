@@ -1,6 +1,6 @@
 {
   "name": "easy-tts-mp3",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert message to MP3 with multiple languages",
   "main": "./src/app.js",
   "type": "module",
