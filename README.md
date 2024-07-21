@@ -23,12 +23,12 @@ npm i easy-tts-mp3
 ```js
 import easyTTSmp3 from 'easy-tts-mp3'
 
-const stringFilePath = await easyTTSmp3(message, config)
+const stringFilePath = await easyTTSmp3(message, config?)
 ```
 
 - `message`: String with text to convert to speech
 
-- `config`: Object with TTS configuration.
+- `config?`: Object with TTS configuration (optional).
 
 ### ⚙️ TTS configuration ↴
 
