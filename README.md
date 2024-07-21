@@ -47,11 +47,4 @@ const check = checkLang(lang)
 
 - `lang`: The language of the TTS (Example: 'es-ES').
 
-This function checks if the language exists in this [library](/src/utils/lang.js).
-
-## 🧪 Test Command ↴
-```
-npm run test
-```
-
-This command create `tts.mp3` file with the translated text *"esto es una prueba" in spanish.*
+This function checks if the language exists in this [library](https://github.com/gamboavalentin/easy-tts-mp3/blob/main/src/utils/lang.js).
