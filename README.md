@@ -17,6 +17,7 @@ Library for easily converting text to speech in multiple languages. No dependenc
 ```
 npm i easy-tts-mp3
 ```
+***NPM Package →*** [📦](https://www.npmjs.com/package/easy-tts-mp3)
 
 ## 🤔  How to use ↴
 ```js
